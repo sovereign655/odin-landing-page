@@ -59,7 +59,8 @@ button:hover {
     gap: 3svw;
 }
 
-.header-link a, .m1-left p {
+.header-link a,
+.m1-left p {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -95,6 +96,7 @@ button:hover {
     width: 400px;
 
 }
+
 .m1-left h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -119,12 +121,13 @@ button:hover {
     font-weight: bolder;
     color: #1f2937;
 }
-.m2-container{
+
+.m2-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2svw;
-    
+
 }
 
 .m2-info {
