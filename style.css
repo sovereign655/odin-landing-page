@@ -146,9 +146,81 @@ button:hover {
 
 .m3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5svh;
 }
 
-.m4 {}
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.m3 p {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.m4.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8svh 8svh;
+}
+
+.m4-box {
+    display: flex;
+    flex:content;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0d6efd;
+    border-radius: .50rem;
+    padding: 1em;
+
+}
+
+.m4-box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1svh;
+    padding: 1em 5em;
+    color: #E5E7EB;
+}
+
+.m4-box-right {
+    padding: 1em 5em 0px;
+    
+}
+
+.m4-box-right button {
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 4px 32px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.m4-box-right button:hover {
+    color: #fff;
+    background-color: #1a1d69;
+    border-color: #5b00f9;
+}
 
 .footer {
     background-color: #1f2937;
