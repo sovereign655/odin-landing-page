@@ -1,11 +1,12 @@
 /* stylesheet */
 
+/* Global Reset */
 * {
-
     padding: 0;
     margin: 0;
 }
 
+/* general designs */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -33,8 +34,7 @@ button:hover {
     border-color: #0d6efd;
 }
 
-
-
+/* Header Styles */
 .header {
     background-color: #1f2937;
     display: flex;
@@ -66,6 +66,7 @@ button:hover {
     font-size: 18px;
 }
 
+/* Main Content Container */
 .main {
     display: flex;
     flex-direction: column;
@@ -73,11 +74,13 @@ button:hover {
 
 }
 
+/* Card Styles within the body, functions as separate sections */
 .card {
     padding: 4svh 12svw;
     flex: 0 1 32svh;
 }
 
+/* Section M1 (Main Content 1) */
 .m1 {
     display: flex;
     background-color: #1f2937;
@@ -109,6 +112,7 @@ button:hover {
     padding-left: auto;
 }
 
+/* Section M2 (Main Content 2) */
 .m2 {
     display: flex;
     flex-direction: column;
@@ -144,6 +148,7 @@ button:hover {
     border-radius: 1rem;
 }
 
+/* Section M3 (Main Content 3) */
 .m3 {
     background-color: #E5E7EB;
     display: flex;
@@ -167,6 +172,7 @@ button:hover {
     color: #1f2937;
 }
 
+/* Section M4 (Main Content 4) */
 .m4.card {
     display: flex;
     align-items: center;
@@ -176,7 +182,7 @@ button:hover {
 
 .m4-box {
     display: flex;
-    flex:content;
+    flex: content;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -196,7 +202,7 @@ button:hover {
 
 .m4-box-right {
     padding: 1em 5em 0px;
-    
+
 }
 
 .m4-box-right button {
@@ -222,7 +228,12 @@ button:hover {
     border-color: #5b00f9;
 }
 
+/* Footer Styles */
 .footer {
     background-color: #1f2937;
+    color: #fff;
     padding: 4svh 12svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
